@@ -16,12 +16,14 @@ header {
 }
 
 #map {
-    width: 600px;   /* Haritanın genişliği küçültüldü */
-    height: 400px;  /* Haritanın yüksekliği küçültüldü */
-    margin: 0 auto; /* Ortalamak için */
-    border-radius: 10px; /* Kenarları yuvarlak yap */
-    border: 2px solid #333; /* Çerçeve ekleyerek belirginleştir */
+    width: 600px !important;  /* Genişliği küçült */
+    height: 400px !important; /* Yüksekliği küçült */
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #333;
 }
+
 
 
 nav ul {
