@@ -5,30 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harita Sayfası</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 </head>
 <body>
 
     <header>
-        <h1>Muğla Yangın Haritası</h1>
+        <h1>Harita Sayfası</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="about.html">Hakkında</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="map-container">
-        <h2>Harita Bölümü</h2>
-       
+        <h2>Yangın Haritası</h2>
+        <div id="map" style="width: 100%; height: 500px;"></div>
     </section>
 
     <footer>
         <p>© 2025 Benim Harita Projem</p>
     </footer>
 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+
 </body>
 </html>
+
 
 
 <!DOCTYPE html>
