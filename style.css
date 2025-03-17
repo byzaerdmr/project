@@ -10,6 +10,19 @@ header {
     color: white;
     padding: 15px;
 }
+#map-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#map {
+    width: 600px;   /* Haritanın genişliği küçültüldü */
+    height: 400px;  /* Haritanın yüksekliği küçültüldü */
+    margin: 0 auto; /* Ortalamak için */
+    border-radius: 10px; /* Kenarları yuvarlak yap */
+    border: 2px solid #333; /* Çerçeve ekleyerek belirginleştir */
+}
+
 
 nav ul {
     list-style: none;
@@ -39,14 +52,3 @@ footer {
     width: 100%;
 }
 
-#map-container {
-    text-align: center;
-    padding: 20px;
-}
-
-#map {
-    width: 600px;  /* Genişlik küçültüldü */
-    height: 400px; /* Yükseklik küçültüldü */
-    margin: 0 auto; /* Ortalamak için */
-    border-radius: 10px; /* Kenarları yuvarlak yap */
-}
