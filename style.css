@@ -65,3 +65,17 @@ footer {
 .button:hover {
     background-color: #0056b3;
 }
+#map-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#map {
+    width: 800px;  /* Haritanın genişliğini küçülttük */
+    height: 500px; /* Yüksekliği küçülttük */
+    max-width: 90%;
+    margin: 20px auto; /* Kenarlarda boşluk bırak */
+    border-radius: 10px;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Haritaya gölge efekti ekledik */
+}
