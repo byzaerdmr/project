@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harita</title>
+    <title>Harita Sayfası</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Harita Sayfası</h1>
-    <iframe src="https://www.google.com/maps/embed?..." width="600" height="450"></iframe>
-    <a href="index.html">Ana Sayfaya Dön</a>
+
+    <header>
+        <h1>Harita Sayfası</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="map-container">
+        <h2>Harita</h2>
+        <iframe src="https://www.google.com/maps/embed?..." 
+            width="600" height="400" 
+            style="border:0; display:block; margin: 0 auto;"
+            allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <footer>
+        <p>© 2025 Harita Projesi</p>
+    </footer>
+
 </body>
 </html>
