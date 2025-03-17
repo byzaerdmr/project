@@ -38,3 +38,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#map-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#map {
+    width: 600px;  /* Genişlik küçültüldü */
+    height: 400px; /* Yükseklik küçültüldü */
+    margin: 0 auto; /* Ortalamak için */
+    border-radius: 10px; /* Kenarları yuvarlak yap */
+}
