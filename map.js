@@ -1,6 +1,5 @@
-// Haritayı belirli bir genişlik ve zoom seviyesiyle başlat
 var map = L.map('map', {
-    center: [37.0, 35.0], // Harita başlangıç noktası
+    center: [37.0, 35.0], // Haritanın başlangıç noktası
     zoom: 7, // Küçük harita için zoom seviyesini yükselttik
     maxBounds: [[33, 25], [42, 45]], // Türkiye sınırlarına odaklanabilir
     maxBoundsViscosity: 1.0
